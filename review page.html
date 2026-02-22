@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Reviews | Hysens Techniques</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="review.css">
+  <script src="review.js" defer></script>
+</head>
+<body>
+  <nav role="navigation" aria-label="Main navigation">
+    <div class="logo">HYSENS</div>
+    <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
+    <ul>
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="review page.html">Reviews</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header style="background:url('https://images.unsplash.com/photo-1590402494682-cd3fb53a16aa?auto=format&fit=crop&w=1600&q=80') no-repeat center/cover;">
+    <h1>Customer Reviews</h1>
+    <p>See what our clients say about us</p>
+  </header>
+
+ <section class="comment-section" id="comments">
+    <h2><i class="fa-solid fa-comments"></i> Leave a Comment</h2>
+    <form id="comment-form" class="comment-form">
+      <div class="input-group">
+        <span class="input-icon"><i class="fa-solid fa-user"></i></span>
+        <input type="text" id="comment-name" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="input-group">
+        <span class="input-icon"><i class="fa-solid fa-comment"></i></span>
+        <textarea id="comment-message" name="message" rows="4" placeholder="Write your comment..." required></textarea>
+      </div>
+      <button class="comment-btn" id="comment-summbit" type="submit"><i class="fa-solid fa-paper-plane"></i> Post Comment</button>
+    </form>
+
+    <div class="container reviews">
+      <div class="review-card">
+        <h4>John A.</h4>
+        <p>“Hysens installed our cold room and it works flawlessly. Highly recommended!”</p>
+      </div>
+      <div class="review-card">
+        <h4>Mary O.</h4>
+        <p>“Professional and fast service when my AC broke down. Great team!”</p>
+      </div>
+      <div class="review-card">
+        <h4>Ahmed K.</h4>
+        <p>“They provide reliable chillers for our company. Excellent support.”</p>
+      </div>
+      <div class="review-card">
+        <h4>Chinwe E.</h4>
+        <p>“The technicians were friendly and explained everything clearly. My freezer is working perfectly now.”</p>
+      </div>
+      <div class="review-card">
+        <h4>Samuel T.</h4>
+        <p>“Quick response and affordable pricing. I’ll use Hysens again!”</p>
+      </div>
+      <div class="review-card">
+        <h4>Fatima S.</h4>
+        <p>“Great after-sales support. They helped me set up my new cooling system with no hassle.”</p>
+      </div>
+      <section class="review-info" style="margin-top:40px;">
+        <h2>Why Our Clients Love Us</h2>
+        <ul>
+          <li>Fast and reliable service</li>
+          <li>Expert technicians</li>
+          <li>Affordable pricing</li>
+          <li>Friendly customer support</li>
+          <li>Quality products and installations</li>
+        </ul>
+        <h2>Share Your Experience</h2>
+        <p>We value your feedback! If you’ve worked with Hysens Techniques, please <a href="mailto:info@hysens.com">email us your review</a> or connect on social media.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hysens Techniques | All Rights Reserved</p>
+    <div class="nav-buttons">
+      <a href="contact.html" class="btn">Next</a>
+      <a href="services.html" class="btn">Back</a>
+    </div>
+  </footer>
+</body>
+</html>
